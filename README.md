@@ -29,12 +29,3 @@
 - **State Management:** React Hooks
 - **Deployment:** Vercel / Netlify
 
-## 📸 Preview
-*(Tambahkan screenshot aplikasi lo di sini, contoh:)*
-![Preview](link-screenshot-lo-di-sini)
-
-## 📦 How to Setup
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/username/EdelweissShop.git](https://github.com/username/EdelweissShop.git)
