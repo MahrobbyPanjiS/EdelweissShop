@@ -1,0 +1,59 @@
+/**
+ * Edelweiss Craft - Background & Animation Styles
+ * Defines custom scrollbar, holographic card effect, and void background animation.
+ */
+
+@layer utilities {
+    /* Cyberpunk Scrollbar */
+    ::-webkit-scrollbar { 
+        width: 6px; 
+        height: 6px; 
+    }
+    ::-webkit-scrollbar-track { 
+        background: transparent; 
+    }
+    ::-webkit-scrollbar-thumb { 
+        background: theme('colors.outline-variant'); 
+        border-radius: 3px; 
+    }
+    ::-webkit-scrollbar-thumb:hover { 
+        background: theme('colors.primary'); 
+    }
+
+    /* Holographic Card Effect */
+    .cyber-card {
+        background: linear-gradient(145deg, theme('colors.surface-container-lowest'), theme('colors.surface'));
+        border: 1px solid theme('colors.outline-variant');
+        position: relative;
+        z-index: 1;
+    }
+    
+    .cyber-card::before {
+        content: '';
+        position: absolute;
+        top: 0; 
+        left: 0; 
+        right: 0; 
+        height: 1px;
+        background: linear-gradient(90deg, transparent, theme('colors.primary/30'), transparent);
+        z-index: 2;
+    }
+
+    /* Cyber Void Background */
+    .cyber-void-bg {
+        background: radial-gradient(circle at 50% 50%, #0e7490 0%, #131317 70%);
+        background-size: 200% 200%;
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+        .cyber-void-bg {
+            animation: voidMove 15s ease-in-out infinite alternate;
+        }
+    }
+}
+
+@keyframes voidMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 50% 100%; }
+}
