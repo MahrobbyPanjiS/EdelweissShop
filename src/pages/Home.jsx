@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className="bg-background text-on-background min-h-screen flex flex-col font-body-base antialiased relative z-0">
       {/* Mengaktifkan animasi background partikel dan void gradient */}
-      <BackgroundAnimation />
+      <BackgroundAnimation variant="v1" />
 
       <Navbar />
 

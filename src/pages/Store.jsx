@@ -45,8 +45,8 @@ const itemsCosmetics = [
  */
 export default function Store() {
   return (
-    <div className="bg-background text-on-background min-h-screen flex flex-col font-body-base antialiased">
-      <BackgroundAnimation />
+    <div className="text-on-background min-h-screen flex flex-col font-body-base antialiased text-white">
+      <BackgroundAnimation variant="v1" />
       <Navbar />
 
       {/* Kanvas Konten Utama */}

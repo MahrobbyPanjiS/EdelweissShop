@@ -55,9 +55,9 @@ const Cart = () => {
     };
 
     return (
-        <div className="bg-background text-on-background font-body-base min-h-screen flex flex-col overflow-x-hidden relative">
+        <div className="text-on-background font-body-base min-h-screen flex flex-col overflow-x-hidden relative">
             {/* Cyber Void background animation */}
-            <BackgroundAnimation />
+            <BackgroundAnimation variant="v2" />
 
             {/* Navbar */}
             <Navbar />
@@ -156,7 +156,7 @@ const Cart = () => {
                                             className="w-full bg-surface-container-lowest border border-outline-variant text-on-surface pl-10 pr-sm py-sm rounded focus:border-primary focus:ring-1 focus:ring-primary outline-none font-code text-code transition-all placeholder-outline"
                                         />
                                     </div>
-                                    <button className="bg-surface-container border border-outline-variant text-on-surface font-body-bold px-md py-sm rounded hover:bg-surface-container-highest transition-colors border border-outline-variant active:scale-95">
+                                    <button className="bg-surface-container border border-outline-variant text-on-surface font-body-bold px-md py-sm rounded hover:bg-surface-container-highest transition-colors active:scale-95">
                                         Terapkan
                                     </button>
                                 </div>
