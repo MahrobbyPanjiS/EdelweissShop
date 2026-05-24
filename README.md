@@ -1,7 +1,11 @@
 <div align="center">
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=131317&height=200&section=header&text=Edelweiss%20Shop&fontSize=60&fontColor=22d3ee&desc=Modern,%20Elegant%20%26%20Scalable%20Minecraft%20Portal&descSize=20&descAlignY=65" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=190&color=gradient&text=Edelweiss%20Store&fontColor=00FFFB&fontSize=90&animation=twinkling&section=header&textBg=false&reversal=false" />
 
+  <p align="center">
+    <b>Modern, Elegant & Scalable Minecraft Server Management Portal</b>
+  </p>
+  
   <p align="center">
     <a href="https://github.com/MahrobbyPanjiS/EdelweissShop/issues">
       <img alt="Issues" src="https://img.shields.io/github/issues/MahrobbyPanjiS/EdelweissShop?color=22d3ee&style=flat-square" />
@@ -11,6 +15,7 @@
     </a>
     <img alt="License" src="https://img.shields.io/github/license/MahrobbyPanjiS/EdelweissShop?color=adc6ff&style=flat-square" />
   </p>
+
 </div>
 
 ---
