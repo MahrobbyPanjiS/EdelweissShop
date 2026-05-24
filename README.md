@@ -1,31 +1,58 @@
 <div align="center">
 
-# 💎 EdelweissShop
-*Modern, Elegant & Scalable Minecraft Server Management Portal*
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Edelweiss%20Shop&fontSize=60&fontColor=white" />
 
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)]()
-[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)]()
-[![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)]()
-
----
-
-<p align="center">
-  <b>EdelweissShop</b> adalah portal manajemen server Minecraft terintegrasi yang dibangun untuk memberikan pengalaman admin & player yang modern, minimalis, dan efisien. Fokus pada UI/UX yang elegan dengan performa full-stack yang responsif.
-</p>
+  <p align="center">
+    <b>Modern, Elegant & Scalable Minecraft Server Management Portal</b>
+  </p>
+  
+  <p align="center">
+    <a href="https://github.com/MahrobbyPanjiS/EdelweissShop/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/MahrobbyPanjiS/EdelweissShop?color=22d3ee&style=flat-square" />
+    </a>
+    <a href="https://github.com/MahrobbyPanjiS/EdelweissShop/stargazers">
+      <img alt="Stars" src="https://img.shields.io/github/stars/MahrobbyPanjiS/EdelweissShop?color=e9c349&style=flat-square" />
+    </a>
+    <img alt="License" src="https://img.shields.io/github/license/MahrobbyPanjiS/EdelweissShop?color=adc6ff&style=flat-square" />
+  </p>
 
 </div>
 
-## 🚀 Key Features
+---
 
-- **Dynamic Player Head Viewer:** Render skin pemain secara real-time dengan integrasi 3D.
-- **Admin Dashboard:** Panel kontrol penuh untuk manajemen server.
-- **Modern UI/UX:** Desain minimalis dengan aksen warna yang elegan.
-- **Responsive Layout:** Pengalaman mulus di desktop maupun mobile.
+## 🎯 Project Overview
+**EdelweissShop** adalah solusi *all-in-one* untuk manajemen server Minecraft. Kami menggabungkan performa tinggi dengan estetika **Cyberpunk Minimalist**, memberikan pengalaman admin dan player yang tidak hanya fungsional, tapi juga memanjakan mata.
+
+---
+
+## ⚡ Core Capabilities
+
+| Feature | Description |
+| :--- | :--- |
+| **3D Skin Avatar** | Rendering *real-time* kepala pemain dalam format 3D interaktif. |
+| **Admin Panel** | Kontrol penuh atas produk, pesanan, dan monitoring server. |
+| **Modern UI/UX** | Desain *glassmorphism* & *bento-grid* yang terinspirasi dari standar aplikasi modern. |
+| **Smart Analytics** | Dashboard statistik penjualan dan performa server yang intuitif. |
+
+---
 
 ## 🛠 Tech Stack
+Kami menggunakan teknologi cutting-edge untuk performa terbaik:
 
-- **Frontend:** React.js, Vite, Tailwind CSS
-- **Visualization:** SkinView3D
-- **State Management:** React Hooks
-- **Deployment:** Vercel / Netlify
+* **Core:** `React.js` dengan `Vite` untuk build super cepat.
+* **Styling:** `Tailwind CSS` (Custom Cyber-Theme).
+* **3D Engine:** `SkinView3d` untuk visualisasi karakter.
+* **Icons:** `Lucide React` untuk tampilan ikon yang bersih.
 
+---
+
+## 🚀 Live Preview
+*(Tips: Upload screenshot dashboard lo ke GitHub, terus copy link-nya ke sini)*
+
+> "Design is not just what it looks like and feels like. Design is how it works."
+
+---
+
+<div align="center">
+  <sub>Dibuat dengan dedikasi penuh oleh <b>Mahrobby Panji Sedayu</b></sub>
+</div>
